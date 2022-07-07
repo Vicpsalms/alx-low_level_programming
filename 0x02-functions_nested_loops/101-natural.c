@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - computes and prints the sum of all the multiple
@@ -25,7 +25,7 @@ else if ((i % 5) == 0)
 sum5 = sum5 + i;
 }
 }
-sum = sum3 + sum5;
+sum = sum3 + sum;
 printf("%lu\n", sum);
 return (0);
 }
