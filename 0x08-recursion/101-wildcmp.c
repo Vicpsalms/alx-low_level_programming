@@ -25,7 +25,7 @@ int sum = 0;
  * if we reach the end of s1 and char in s2 is a *
  * and if the next chars of s2 are *, return 1
  */
-if (s1 == '\0' && *s2 == '*' && !*move(s2))
+if (*s1 == '\0' && *s2 == '*' && !*move(s2))
 return (1);
 
 /**
@@ -69,7 +69,7 @@ return (0);
 }
 
 /**
- * bandersnatch - checks recursively for all the paths when the 
+ * bandersnatch - checks recursively for all the paths when the
  * characters are equal
  * @s1: first string
  * @s2: second string
