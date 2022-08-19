@@ -22,5 +22,5 @@ else if (count)
 _putchar('0');
 }
 if (!count)
-_putchar('o');
+_putchar('0');
 }
